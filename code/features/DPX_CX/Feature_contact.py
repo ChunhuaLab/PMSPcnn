@@ -1,0 +1,28 @@
+import os,sys
+import shutil
+import numpy as np
+
+
+
+def main():
+    #W=np.zeros([])
+    
+    psaia_w      =np.load('psaia_w.npy')
+    psaia_w =psaia_w.astype('float')
+    psaia_m      =np.load('psaia_m.npy')
+    psaia_m =psaia_m.astype('float')
+    psaia_diff   = psaia_w-psaia_m
+    psaia_direct =np.concatenate((psaia_w,psaia_m,psaia_diff),axis=1)
+#    psaia_rever  =np.concatenate((psaia_m,psaia_m,-psaia_diff),axis=1)
+#    print(psaia_direct.shape,psaia_rever.shape)
+#    psaia_feature= np.concatenate((psaia_direct,psaia_rever),axis=0)
+#    print(psaia_feature.shape)
+#    
+    np.save("psaia_direct.npy", psaia_direct)
+    os.system('rm psaia_w.npy')
+    os.system('rm psaia_m.npy')
+    
+if __name__ == '__main__':
+  main()
+
+   
