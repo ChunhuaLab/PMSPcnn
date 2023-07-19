@@ -4,4 +4,4 @@
 4. PSAIA
 5. SPOT-LM
 
-The required softwares can be obtained at the following URL：
+The required softwares can be obtained at the following URL：https://github.com/XiaohanSun001/PMSPcnn/tree/main/code/softwares
