@@ -1,5 +1,5 @@
 # PMSPcnn: Predicting changes of single point missense mutations on protein stability based on convolutional neural network.
-PMSPcnn is a quite exceptional unbiased predictor predictor   of ¦¤¦¤G for single-point mutations.
+PMSPcnn is a quite exceptional unbiased predictor predictor of ΔΔG for single-point mutations.
 
 Authors: Xiaohan Sun, Shuang Yang, Zhixiang Wu, Jingjie Su, Fangrui Hu, Fubin Chang, Chunhua Li*. 
 
