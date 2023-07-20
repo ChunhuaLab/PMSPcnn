@@ -143,7 +143,7 @@ If you want to predict several mutations, add them to the pdbid.csv file and run
 
 ## Help
 
-For any questions, please contact us by chunhuali@bjut.edu.cn.
+For any questions, please contact us by xiaohansun@bjut.edu.cn or chunhuali@bjut.edu.cn.
 
 
 
