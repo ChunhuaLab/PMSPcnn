@@ -101,7 +101,7 @@ python ./PMSPcnn/code/features/feature_integrate.py
 Run the following command:
 
 ```{bash}
-python predict.py
+python ./PMSPcnn/predict.py
 ```
 The finally output is shown in  "./result/predcit_value.txt".
 
