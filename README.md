@@ -84,8 +84,6 @@ AA index is from the website: https://www.genome.jp/aaindex/.
 Run the following command:
 
 ```{bash}
-cd 
-
 ./PMSPcnn/code/features/DPX_CX/run_phy_cha.sh 1lni
 ```
 The output file is "AA_direct.npy".
