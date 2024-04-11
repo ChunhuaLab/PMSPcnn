@@ -1,5 +1,3 @@
-# PMSPcnn: Predicting protein stability changes upon single point mutations with convolutional neural network.
-
 PMSPcnn is an effective and unbiased predictor of protein stability changes ΔΔG caused by single point mutations.
 
 Authors: Xiaohan Sun, Shuang Yang, Zhixiang Wu, Jingjie Su, Fangrui Hu, Fubin Chang, Chunhua Li. 
